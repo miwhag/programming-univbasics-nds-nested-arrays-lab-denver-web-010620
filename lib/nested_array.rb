@@ -54,4 +54,4 @@ matrix[row][column] = new_value
 return matrix
 end
 
-matrix_update(assembled_matrix, 0, 1, "Potatoes")
+

@@ -50,8 +50,7 @@ matrix_lookup(assembled_matrix,1,1)
 
 def matrix_update(matrix, row, column, new_value)
   
-matrix[row][column] = new_value
-return assembled_matrix
+return matrix[row][column] = new_value
 end
 
 matrix_update(assembled_matrix, 0, 1, "Potatoes")

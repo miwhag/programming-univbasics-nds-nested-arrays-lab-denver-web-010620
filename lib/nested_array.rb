@@ -50,16 +50,6 @@ matrix_lookup(assembled_matrix,1,1)
 
 def matrix_update(matrix, row, column, new_value)
   
-list_1 = ["Grapefruit", "Pineapple", "Onions", "Watermelon", "Eggplant"]
-list_2 = ["Strawberries", "Apples", "Pear", "Wheat", "Squash"]
-list_3 = ["Turnip", "Celery", "Kale", "Peanuts", "Tangerine"]
-
-assembled_matrix = [
-  list_1,
-  list_2,
-  list_3,
-]
-
 matrix[row][column] = new_value
 return assembled_matrix
 end
